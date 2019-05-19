@@ -56,7 +56,7 @@ async def analyze(request):
     img = open_image(BytesIO(img_bytes))
     prediction = learn.predict(img)[0]
 
-    result_split = prediction.split(";")
+    result_split = str(prediction).split(";")
     valor_final = ''
     for r in result_split:
         valor_final += '<br /> ' + classes[int(r)]
