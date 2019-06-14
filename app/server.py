@@ -9,9 +9,9 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-# export_file_url = 'https://drive.google.com/uc?export=download&id=1JABYGBTHMoDzv0QFqW8IjAlMSM0E7drM'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1JABYGBTHMoDzv0QFqW8IjAlMSM0E7drM'
 #export_file_url = 'https://drive.google.com/uc?export=download&id=1tv1hY2icJ3dKmYmYINzQMmn3-KWz-NSY'
-export_file_url = 'https://drive.google.com/uc?export=download&id=13-Ap1jDv_rEgh6-Ex4v181AsphkxW8l2'
+#export_file_url = 'https://drive.google.com/uc?export=download&id=13-Ap1jDv_rEgh6-Ex4v181AsphkxW8l2'
 # export_file_name = 'export.pkl'
 export_file_name = 'lexp.pkl'
 
